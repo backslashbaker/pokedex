@@ -1,7 +1,11 @@
 import React from 'react'
 
-export default function PokemonList() {
+export default function PokemonList({ pokemon }) {
+  console.log(pokemon.types[0])
   return (
-    <div>PokemonList</div>
+    <div>
+      {pokemon.id}
+      {pokemon.name}
+    </div>
   )
 }
