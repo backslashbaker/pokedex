@@ -13,7 +13,7 @@ function App() {
       <SearchPokemon setPokemonData={setPokemonData} />
       <div className="flex justify-center items-center"> {/* Add this line */}
         {pokemonData && <PokemonCard pokemonData={pokemonData} />}
-      </div> {/* Add this line */}
+      </div>
     </>
   );
 }
